@@ -19,10 +19,10 @@ fetch('https://jsonplaceholder.typicode.com/photos')
         let url = json[i].url;
         let title = json[i].title;
 
-        console.log(json[i].title);
+        console.log(json[i]);
 
         card.innerHTML = `<img src="${url}">`;
-        description.innerHTML = `<p>${title}</p>`;
+        description.innerHTML = `<p>${title}</p><span>album 1</span>`;
 
         card.appendChild(description);
         cardContainer.appendChild(card)

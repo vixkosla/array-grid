@@ -14,7 +14,16 @@ body {
 }
 
 .description {
-    margin: 0.25rem;
+    margin: 0.5rem;
+}
+
+.description p {
+    margin-bottom: 0.5rem;
+}
+
+span {
+    font-size: 0.7rem;
+    color: silver;
 }
 
 .card {
