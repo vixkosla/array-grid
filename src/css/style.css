@@ -8,7 +8,7 @@ body {
     display: grid;
     justify-content: center;
     grid-gap: 1rem;
-    grid-template-rows: repeat(5, 4fr);
+    grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(4, 24%);
 }
 
@@ -42,21 +42,21 @@ span {
 
 @media only screen and (max-width: 1200px) {
     .card-container {
-        grid-template-rows: repeat(7, 7fr);
+        grid-template-rows: repeat(7, 1fr);
         grid-template-columns: repeat(3, 33%);
     }
 }
 
 @media only screen and (max-width: 992px) {
     .card-container {
-        grid-template-rows: repeat(10, 10fr);
+        grid-template-rows: repeat(10, 1fr);
         grid-template-columns: repeat(2, 50%);
     }
 }
 
 @media only screen and (max-width: 768px) {
     .card-container {
-        grid-template-rows: repeat(20, 20fr);
+        grid-template-rows: repeat(20, 1fr);
         grid-template-columns: repeat(1, 100%);
     }
 }
